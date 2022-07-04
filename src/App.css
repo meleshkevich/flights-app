@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.select__flight {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3em;
+  border: 1px solid #b6effb;
+  width: 100%;
+  padding: 10px;
+  background-color: #cff4fc;
+}
+.results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flights {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.flight {
+  width: 100%;
+  margin-top: 3em;
+}
